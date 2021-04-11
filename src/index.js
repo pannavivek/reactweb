@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './index.css';
-//import App from './App';
+import App from './App';
 import Incr from './Incr';
 import { BrowserRouter } from 'react-router-dom';
 import Nav from './Nav';
-//import Menu from './Menu';
+import Menu from './Menu';
 
 
 const fname ='vivek';
@@ -40,7 +40,7 @@ ReactDom.render(<React.Fragment>
 <p style={ para }>Material Design is the standard for designing and creating websites and apps. </p>
 
 
-
+<App />
 
 <Incr />
 
